@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja De Vida</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="NewStyles.css">
+</head>
+
+<body>
+    <div class="container-lg my-5"> <!-- Crea un contenedor responsivo que cambia su ancho máximo según el tamaño de la pantalla. sm(small) 
+                                    md(medium) lg(large) xl(extra large) xxl(extra extra large)-->
+        <div class="row shadow-lg rounded-4 overflow-hidden"> <!-- Filas -->
+            <!-- Columna izquierda -->
+            <div class="col-md-4 bg-primary text-white p-4">
+                <header class="text-center mb-4"> <!-- mb es margene button -->
+                    <img src="img/Mi foto de perfil.png"
+                        class="img-fluid rounded-circle border border-4 border-white mb-3" alt="Foto De Perfil">
+                    <h1 class="fw-bold mb-1">Juan Manuel Torres Villota</h1>
+                    <h2 class="h5 text-light">Desarrollador Web Junior</h2>
+
+                </header>
+
+                <section class="mb-4">
+                    <br><br><br><br><br><h5 class="fw-bold mb-3"> <i class="fas fa-address-card me-2"></i>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <!-- Ul representa una lista desordenada, también conocida como lista de viñetas. -->
+                        <li class="mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            <a href="https://wa.me/573233400893" target="_blank" class="text-white">+57 3233400893
+                                <!-- Agregar un link -->
+
+                        </li>
+
+
+                        </a>
+                        <li class="mb-2">
+                            <i class="fas fa-envelope me-3"></i>juanmatorresvillota@gmail.com
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt me-3"></i>Manizales, Caldas
+                        </li>
+                        <li class="mb-2">
+                            <i class="fa-brands fa-instagram me-2"></i>
+                            <a href="https://www.instagram.com/i_am_the_choripan_dulce/" target="_blank"
+                                class="text-white">instagram.com/i_am_the_choripan_dulce/
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fa-brands fa-github me-2"></i>
+                            <a href="https://github.com/ChoripanDulce" target="_blank"
+                                class="text-white">github.com/ChoripanDulce
+
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="mb-4">
+                    <h5 class="fw-bold mb-3"> <i class="fas fa-code me-2"></i>Habilidades</h5>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <!--d-flex justify-content-between me organiza en los lados lo que ponga  -->
+                            <span> HTML/CSS</span>
+                            <span> 20% </span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;;"> <!-- Creamos la barra de porcentaje -->
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 20%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <!--d-flex justify-content-between me organiza en los lados lo que ponga  -->
+                            <span> Java</span>
+                            <span> 20% </span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;;"> <!-- Creamos la barra de porcentaje -->
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 20%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <!--d-flex justify-content-between me organiza en los lados lo que ponga  -->
+                            <span> Ingles</span>
+                            <span> 80% </span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;;"> <!-- Creamos la barra de porcentaje -->
+                            <div class="progress-bar bg-white" role="progressbar" style="width: 80%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Columna derecha -->
+            <div class="col-md-8 bg-light p-4">
+
+                <section class="mb-5">
+                    <h4 id="text-primary" class="fw-bold mb-4">
+                        <i class="fa-solid fa-briefcase me-2"></i>Experiencia Laboral
+                    </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-4">Desarrollador Front-End Junior</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small"> 2025 - Actualidad</h5>
+                            <h6 class="text-primary">Empresa Tecnologica ChoripanDulce</h6>
+                            <ul> <!-- Para crear listas ol o ul -->
+                                <li>Liderazgo de equipos de desarrollo</li>
+                                <li>Optimizacion de rendimiento</li>
+                                <li>Tecnico en asistencia administrativa</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda experiencia -->
+
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-4">Auxiliar En Mercadeo y Ventas</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small"> 2023 - 2024 </h5>
+                            <h6 class="text-primary">Academia Chong Sin Tok Sury</h6>
+                            <ul> <!-- Para crear listas ol o ul -->
+                                <li>Promocion De Ventas, Productos y Servicios</li>
+                                <li>Interaccioin Directa Con Clientes</li>
+                                <li>Aplicacion De Estrategias De Ventas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mb-5">
+                    <h4 id="text-primary" class="fw-bold mb-4"> <i class="fas fa-graduation-cap me-2"></i>Educacion
+                    </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-4">Bachiller y/o Universidad</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small word-spacing-4"> 2017-2022 2024-Actualidad</h5>
+                            <ul> <!-- Para crear listas ol o ul -->
+                               <br> <li>I.E Gimnasio Del Pacifico</li>
+                                <li>Universidad De Caldas</li>
+                                <li>Talento Tech</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda experiencia -->
+
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold mb-4">Titulos</h4>
+                            <ul> <!-- Para crear listas ol o ul -->
+                                <li>Ingeniero Informatico</li>
+                                <li>Certficiado En Programacion Web</li>
+                                <li>Tecnico En Asistencia administrativa</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
