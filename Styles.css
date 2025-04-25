@@ -24,7 +24,14 @@ img{
     border-radius: 20;
     overflow: hidden;
 }
-/* .bg-secondary{
-    background-color: #ced1d4 !important
-} */
+
+/* Estilos de las cards */
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translate(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 1)
+}
 
